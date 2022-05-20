@@ -1,0 +1,12 @@
+.Footer{
+    height: 20vh;
+    /* background: linear-gradient(90deg, #230a4ae7, #2c0c60,#350F72, #2c0c60cf); */
+    background-color: transparent;
+    color: white;
+    margin: 0;
+    z-index: 0;
+}
+
+.Footer p{
+    margin: 0;
+}

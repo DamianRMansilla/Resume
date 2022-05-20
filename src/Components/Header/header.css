@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 8vh 5vh 4vh;
+    grid-template-areas: 
+    "top top top top top top top top top top top top"
+    "top top top top top top top top top top top top"
+    "menu menu menu menu menu menu menu menu menu menu menu menu";
+    /* background: linear-gradient(90deg, #230a4ae7, #2c0c60,#350F72, #2c0c60cf); */
+    /* background-color: #230a4ae7; */
+    background-color: transparent;
+    color: white;
+    padding: 0 0 1.3vh 0;
+    z-index: 1;
+}
+/*  generar animacion de colores para el texto  - azules, blancos*/
+
+.header-main{
+    grid-area: top;
+    display: flex;
+}
+
+.own-logo{
+    width: 8vw;
+    margin: auto 4vw;
+}
+
+.titles{
+    box-sizing: border-box;
+    padding-right: 17vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-name{
+    margin: 0;
+}
+
+.role{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3-role{
+    margin: 0;
+}
+
+.h1-name, .h3-role{
+    color: white;
+    /* background: linear-gradient(270deg, #94006F, #D23460, #F7744F, #FFB64C, #F9F871); */
+    background-clip: text;
+    text-transform: uppercase;
+    /* animation: name-color 0.6s linear infinite alternate; */
+}
+
+/* @keyframes name-color{
+    0%  {background: linear-gradient(270deg, #ffffff, #cccccc, #cccccc, #cccccc, #cccccc); background-clip: text;}
+    20% {background: linear-gradient(270deg, #cccccc, #ffffff, #cccccc, #cccccc, #cccccc); background-clip: text;}
+    40% {background: linear-gradient(270deg, #cccccc, #cccccc, #ffffff, #cccccc, #cccccc); background-clip: text;}
+    60% {background: linear-gradient(270deg, #cccccc, #cccccc, #cccccc, #ffffff, #cccccc); background-clip: text;}
+    80% {background: linear-gradient(270deg, #cccccc, #cccccc, #cccccc, #cccccc, #ffffff); background-clip: text;}
+    100%{background: linear-gradient(270deg, #ffffff, #cccccc, #cccccc, #cccccc, #cccccc); background-clip: text;}
+    0%  {background: linear-gradient(270deg, #0045A3, #006FC1, #0096CD, #00BBCC, #26DEC6); background-clip: text;}
+    20% {background: linear-gradient(270deg, #26DEC6, #0045A3, #006FC1, #0096CD, #00BBCC); background-clip: text;}
+    40% {background: linear-gradient(270deg, #00BBCC, #26DEC6, #0045A3, #006FC1, #0096CD); background-clip: text;}
+    60% {background: linear-gradient(270deg, #0096CD, #00BBCC, #26DEC6, #0045A3, #006FC1); background-clip: text;}
+    80% {background: linear-gradient(270deg, #006FC1, #0096CD, #00BBCC, #26DEC6, #0045A3); background-clip: text;}
+    100%{background: linear-gradient(270deg, #0045A3, #006FC1, #0096CD, #00BBCC, #26DEC6); background-clip: text;}
+} */
+.nav{
+    grid-area: menu;
+    display: flex;
+    align-items: center;
+    justify-content:stretch
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.menu-li {
+margin: 0 2rem;
+}
+
+.menu-link::after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 0.1em;
+background: linear-gradient(270deg, #0045A3, #006FC1, #0096CD, #00BBCC, #26DEC6);
+opacity: 0;
+transition: opacity 300ms, transform 300ms;
+}
+
+.menu-link::after {
+opacity: 1;
+transform: scale(0);
+transform-origin: center;
+}
+  
+.menu-link:hover::after,
+.menu-link:focus::after{
+transform: scale(1);
+}
