@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.d230babe.css",
+    "main.js": "/Resume/static/js/main.0069e7c0.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/Resume/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/Python.png": "/Resume/static/media/Python.67a96446f70ae7be72e9.png",
+    "static/media/Sass.png": "/Resume/static/media/Sass.7cdbf6b5889c42b3e490.png",
+    "static/media/MySQL.png": "/Resume/static/media/MySQL.c8462b269017cc789dba.png",
+    "static/media/OwnLogo.jpeg": "/Resume/static/media/OwnLogo.8459e09c0ecab30aff99.jpeg",
+    "static/media/CSS.png": "/Resume/static/media/CSS.84de5dab5fab27f4161c.png",
+    "static/media/Scrum.png": "/Resume/static/media/Scrum.20aa4fdac6a9c4bfe7f6.png",
+    "static/media/HTML.png": "/Resume/static/media/HTML.dd8581f9657e88aebf31.png",
+    "static/media/MongoDB.svg": "/Resume/static/media/MongoDB.15fe4efba08d6388c62695c4c68f8b0c.svg",
+    "static/media/NodeJS.svg": "/Resume/static/media/NodeJS.cf2b4de6f517ce6f0c318e8c6a3ccad3.svg",
+    "index.html": "/Resume/index.html",
+    "static/media/React.svg": "/Resume/static/media/React.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.d230babe.css.map": "/Resume/static/css/main.d230babe.css.map",
+    "main.0069e7c0.js.map": "/Resume/static/js/main.0069e7c0.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/Resume/static/js/787.dc9ee2bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d230babe.css",
+    "static/js/main.0069e7c0.js"
+  ]
+}
